@@ -67,7 +67,7 @@ python test.py --name Outdoor_nyu_wsupervised --model test
 
 The pretrained model for [indoor scene weakly wsupervised](https://drive.google.com/drive/folders/197clhZvX8zHQxZXkkBasrx4SUKyUzscT?usp=sharing).
 
-Note: Since our orginal model in the paper is single-GPU, this pretrained model is for multi-GPU version.
+Note: Since our orginal model in the paper trained on single-GPU, this pretrained model is for multi-GPU version. The other mulit-gpu pretrained models will be provided later.
 
 ## Citation
 If you use this code for your research, please cite our papers.
