@@ -9,6 +9,10 @@ This repository implements the training and testing of T2Net for "[T2Net: Synthe
 
 <img src='Image/image2depth_syn2real_indoor.jpg' align="center">
 
+- Extension (WS-GAN, unpaired Image-to-Image Translation, horse2zebra)
+
+<img src='Image/horse2zebra.png' align="center">
+
 This repository can be used for training and testing of
 - Unpaired image-to-image Translation
 - Single depth Estimation
@@ -61,15 +65,18 @@ python test.py --name Outdoor_nyu_wsupervised --model test
 
 ## Trined Models
 
-More trained models will be released
+The pretrained model for [indoor scene weakly wsupervised](https://drive.google.com/drive/folders/197clhZvX8zHQxZXkkBasrx4SUKyUzscT?usp=sharing).
+
+Note: Since our orginal model in the paper is single-GPU, this pretrained model is for multi-GPU version.
 
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@article{zheng2018t2net,
+@inproceedings{zheng2018t2net,
   title={T2Net: Synthetic-to-Realistic Translation for Solving Single-Image Depth Estimation Tasks},
   author={Zheng, Chuanxia and Cham, Tat-Jen and Cai, Jianfei},
-  journal={arXiv preprint arXiv:1808.01454},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={767--783},
   year={2018}
 }
 
